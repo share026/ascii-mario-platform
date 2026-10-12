@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+    color: #e6edf3;
+    font-family: monospace;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #161b22;
+    border-bottom: 2px solid #30363d;
+}
+.navbar a {
+    color: #58a6ff;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+.game-container {
+    background: #000;
+    border: 3px solid #238636;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(35, 134, 54, 0.4);
+}
+.ascii-canvas {
+    font-size: 1.3rem;
+    line-height: 1.1;
+    color: #39ff14;
+    background: #050505;
+    padding: 1rem;
+    border-radius: 4px;
+    display: inline-block;
+    user-select: none;
+    letter-spacing: 2px;
+}
+.hud {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.vip-badge {
+    color: #ffd700;
+    margin-left: 1rem;
+}
+.controls {
+    color: #8b949e;
+    margin-top: 0.5rem;
+}
+.pricing-card, .about-us {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 2rem;
+}
+.btn-stripe, .btn-nostr {
+    background: #238636;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.btn-nostr { background: #8957e5; }
